@@ -14,7 +14,7 @@
         <div class="d-flex justify-content-center py-3">
             <h1 class="text-center ">View Store</h1>
             <button class="btn btn-dark ms-4" style="width: 80px;">
-                <a class="text-white" href="/">Add</a>
+                <a class="text-white" style="text-decoration: none;" href="/">Add</a>
             </button>
         </div>
         <div class="container">
@@ -46,10 +46,10 @@
                                 <td>₹<%= val.price %>
                                 </td>
                                 <td><button class="btn btn-danger me-2">
-                                        <a class="text-white" href="/delete?deletId=<%= val.id%>">Delete</a>
+                                        <a class="text-white" style="text-decoration: none;" href="/delete?deletId=<%= val.id%>">Delete</a>
                                     </button>
                                     <button class="btn btn-primary me-2">
-                                        <a class="text-white" href="/edit?editId=<%= val.id%>">Edit</a>
+                                        <a class="text-white" style="text-decoration: none;" href="/edit?editId=<%= val.id%>">Edit</a>
                                     </button>
                                 </td>
                             </tr>
